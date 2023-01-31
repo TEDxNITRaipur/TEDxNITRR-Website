@@ -1,0 +1,162 @@
+.home{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Harmattan', sans-serif;
+}
+
+
+.fixed-img{
+    width: 100%;
+    height: 602.83px;
+    background-color: black;
+    position: relative;
+}
+
+.overlayer{
+    position: absolute;
+    width: 100%;
+    height: 635.83px;
+    background-color: black;
+    opacity: 65%;
+
+}
+
+.f-image{
+    position: absolute;
+    width: 100%;
+}
+
+.heading-1{
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    padding-left: 10%;
+    padding-top: 6%;
+
+}
+
+.subheading-1{
+    position: absolute;
+    color: white;
+    font-size: 18px;                     
+    padding-left: 10.5%;
+    padding-top: 14.5%;
+}
+
+.theme-heading{
+    position: absolute;
+    color: white;
+    padding-left: 10%;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 14.5%;
+}
+
+.details-1, .details-2{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    padding-left: 10%;
+    padding-top: 22%;
+    line-height: 114.4%;
+}
+
+.details-2{
+    padding-left: 30%;
+}
+
+.intro-1{
+    width: 100%;
+    height: 502.83px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-1{
+    width: 65%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.photo-1 img{
+    padding: 10%;
+    width: 90%;
+    margin: 5%;
+    object-fit: fill;
+}
+.header-1{
+    font-size: 40px;
+}
+.text-1{
+    padding: 5%;
+    padding-top: 8%;
+    width:70%;
+    height: 100%;
+    float: left;
+    font-size: 17px;
+    /* background-color: red; */
+}
+
+.text-1 p, .text-2 p{
+    color: #8A8787;
+    line-height: 37px;
+}
+
+.intro-2{
+    width: 100%;
+    height: 502.83px;
+    background-color: #F1EFEF;
+    display: flex;
+}
+.photo-2, .photo-3{
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+
+.photo-2 img{
+    padding: 10%;
+    width: 90%;
+    height: auto;
+    object-fit: fill;
+}
+
+
+.text-2, .text-3{
+    padding: 5%;
+    width:60%;
+    height: 100%;
+    /* float: right; */
+    text-align: left;
+    font-size: 17px;
+    /* background-color: yellow; */
+}
+
+.text-2{
+    text-align: right;
+}
+
+.gallery{
+    width: 100%;
+    height: 552.83px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.learn-btn-2, .learn-btn-1{
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    border-radius: 24px;
+    border-color: red;
+    background-color: red;
+    float: right;
+}
+
+.learn-btn-1{
+    float: left;
+}
+

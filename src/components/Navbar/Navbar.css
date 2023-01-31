@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+a{
+  text-decoration: none;
+}
+.navbar-logo{
+    margin:4px 15px 2px 15px;
+}
+.navbar-logo-img{
+    max-width: 120px;
+    /* max-height: 50px; */
+}
+.navbar-parent{
+    z-index: 9999;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+    /* padding: 1% 2%; */
+}
+
+.navbar-navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* justify-content: space-around; */
+}
+.navbar-nav-items {
+    font-family: var(--font-family);
+    justify-content: space-evenly;
+    /* font-family: 'Poppins'; */
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    text-decoration: none;
+    /* identical to box height, or 122% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 1.0rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+.navbar-nav-items:hover {
+    color: #f70000;
+}
+.navbar-nav-items:after {
+    display:block;
+    content: '';
+    border-bottom: 2px solid #f70000;
+    transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.navbar-nav-items:hover::after {
+    transform: scaleX(1);
+}

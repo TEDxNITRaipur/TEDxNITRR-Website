@@ -1,0 +1,112 @@
+
+
+#mainpage {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#about-navbar {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+#about-navbar > div {
+    border: 1px solid black;
+    width: 50%;
+}
+
+#about-navbar-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar-btn {
+    align-items: flex-end;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 0px 10px;
+
+    font-family: 'Harmattan';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+#about-image {
+    height: 391px;
+    padding-left: 80px;
+    padding-top: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    backdrop-filter: blur(44.1667px);
+    box-shadow: inset 44.1667px -44.1667px 44.1667px rgba(0, 0, 0, 0.1), inset -44.1667px 44.1667px 44.1667px rgba(255, 255, 255, 0.1);
+    background-image: url('./main.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#about-tedx-text {
+    font-family: 'Harmattan';
+    font-size: 50px;
+    line-height: 85px;
+}
+
+#about-x-text {
+    position: relative;
+    top: -20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#about-theme {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 108.14px;
+    margin-bottom: 20px;
+}
+
+#about-venue-time {
+    font-size: 17.89px;
+    line-height: 20.46px;
+    display: flex;
+}
+
+#about-main{
+    text-align: center;
+    font-weight: 400;
+}
+
+#about-main > p{
+    font-size: 22px;
+    color: #8A8787;
+    line-height: 37px;
+}
+
+hr{
+    height: 15px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border: 0px;
+    /* background-image: url('hr.jpg'); */
+    background-color: gainsboro
+}
+
+#about-main-grid {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    text-align: center;
+    margin: 40px 0px;
+    margin-bottom: 100px;
+}
+
+#about-main-grid-center {
+    margin-top: 40px;
+    line-height: 31px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Harmattan';
+    font-style: normal;
+}
