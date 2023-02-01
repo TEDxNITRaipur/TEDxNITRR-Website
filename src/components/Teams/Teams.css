@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #F1EFEF;
 }
 
 .teams-body{
@@ -15,17 +16,19 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
+    margin: 20px;
     /* border-radius: 10px; */
 }
 .teams-card-details{
     margin: auto;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 35px;
     width: 310px;
     height: 103px;
     background: red;
     opacity: 1;
+    transition: transform .4s;
+
     /* border-radius: 20px; */
     /* border-bottom-left-radius: 7%;
     border-bottom-right-radius: 7%; */
@@ -53,17 +56,31 @@
 }
 .teams-card-img{
     margin: 25px;
-    width: 300px;
+    width: 260px;
     margin-bottom: 0px;
-    height: 300px;
-    border-top-left-radius: 7%;
-    border-top-right-radius: 7%;
+    height: 260px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     /* border-radius: 50%; */
+    transition: transform .4s;
     border: 5px solid red;
-}
+    border-radius: 50%;
+    z-index: 2;
 
+}
+/* .teams-card-container:hover{
+    transform: scale(1.2);
+} */
+.teams-card-details:hover{
+    transform: scale(1.2);
+    background-color: rgb(157, 0, 0);
+}
+.teams-card-img:hover{
+    border: 10px solid rgb(157, 0, 0);
+    transform: scale(1.2);
+
+}
 .teams-heading{
-margin-top: 70px;
 width: 494px;
 height: 136px;
 font-family: 'Harmattan';

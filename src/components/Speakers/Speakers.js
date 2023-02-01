@@ -3,13 +3,16 @@ import './Speakers.css';
 import img1 from './img/M-hffw5a_400x400.jpg'
 import fb from './img/facebook.png'
 import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 const Speakers = () => {
   return (
 <div id = 'speakers'>
-    <Header />
+    {/* <Header /> */}
+    <Navbar/>
+    <h1 style={{textAlign:'center'}}>Past Speakers</h1>
 <div className="speakers-section">
 <div className="about-speakers">
-
     <div className="about-speakers_indi">
         <div className="about-speakers_img">
             <img src={img1} alt="" />
@@ -88,6 +91,7 @@ const Speakers = () => {
 
 </div>
 </div>
+<Footer/>
 </div>
   )
 }

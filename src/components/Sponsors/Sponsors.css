@@ -1,0 +1,110 @@
+
+
+#sponsors{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.spons-dark{
+    font-weight: 900;
+}
+
+#sponsors h1{
+    font-size: 3rem;
+}
+
+
+
+/* UPPER SECTION */
+
+.spons-intro-section{
+    /* filter: blur(1px); */
+    background: url('./img/TEDx.jpeg') no-repeat center center/cover;
+    color: white;
+    /* position: absolute; */
+}
+
+.spons-section .spons-intro-section{
+    padding: 3rem 9rem;
+}
+
+.spons-intro-section p{
+    margin: 0;
+    font-size: 900;
+}
+
+.spons-intro-section .spons-upper-sec, .spons-intro-section .spons-mid-sec{
+    margin-bottom: 2rem;
+}
+
+.spons-intro-section .spons-upper-sec h1{
+    margin-bottom: 0;
+}
+
+.spons-intro-section .spons-upper-sec span{
+    color: red;
+}
+
+.spons-intro-section h1{
+    font-weight: 700;
+}
+
+.spons-intro-section .spons-lower-sec{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.spons-intro-section .spons-lower-sec .spons-lower-sec-right{
+    margin-left: 3rem;
+}
+
+
+
+
+/* CONTENT SECTION */
+
+.spons-content{
+    display: block;
+}
+
+.spons-content #spons-heading{
+    text-align: center;
+}
+
+.spons-content .spons-content-inner{
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    justify-content: center;
+    /* flex-flow: column; */
+    align-items: center;
+    /* margin: 1rem 3rem; */
+}
+
+.spons-content .spons-content-inner .spons-content-inner-box{
+    /* display: inline; */
+    width: fit-content;
+    height: fit-content;
+    padding: 1.2rem;
+    margin: 2rem 1rem;
+    flex-basis: 25%;
+    border: 1px solid black;
+    /* border-radius: 20px; */
+}
+
+.spons-content .spons-content-inner .spons-content-inner-box .inner-box-heading{
+    width: 30px;
+    text-align: center;
+    background-color: white;
+    /* border: 2px solid black; */
+    position: relative;
+    top: -60px;
+    left: 38px;
+}
+
+.spons-content .spons-content-inner .spons-content-inner-box h2{
+    width: fit-content;
+    background-color: white;
+
+}

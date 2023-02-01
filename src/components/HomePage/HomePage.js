@@ -2,8 +2,12 @@ import React from 'react'
 import img1 from './assets/fixed.png';
 import img2 from './assets/photo-1.jpg';
 import Navbar from '../Navbar/Navbar';
+import Speakers from '../Speakers/Speakers';
 import './HomePage.css';
 import Header from '../Header/Header';
+import MainPage from '../MainPage/MainPage';
+import Footer from '../Footer/Footer';
+
 const HomePage = () => {
   return (
     <>
@@ -55,6 +59,7 @@ const HomePage = () => {
             </div>
         </div>
     </div>
+    <Footer />
   </div>
 </>
   )

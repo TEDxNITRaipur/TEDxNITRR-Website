@@ -7,10 +7,12 @@ import Sponsors from './components/Sponsors/Sponsors';
 import Contact from './components/Contact/Contact';
 import Teams from './components/Teams/Teams';
 import HomePage from './components/HomePage/HomePage';
+import ScrollToTop from './ScrollToTop';
 function App() {
   return (
     <div className="App">
     <BrowserRouter>
+    <ScrollToTop/>
     <Routes>
           <Route index element={<HomePage />} />
           <Route path="aboutus" element={<MainPage/>} />

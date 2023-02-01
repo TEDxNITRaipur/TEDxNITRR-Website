@@ -1,11 +1,13 @@
 import React from 'react'
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
 import './MainPage.css';
 const MainPage = () => {
   return (
     <div id = 'mainpage'>
-    <Header/>
+    {/* <Header/> */}
+    <Navbar/>
     <div id="about-main">
         <div style={{fontSize: '50px', lineHeight: '85px', margin:'40px 0px'}}>
             TEDxNITRaipur 6.O
