@@ -73,21 +73,104 @@
 } */
 .teams-card-details:hover{
     transform: scale(1.2);
-    background-color: rgb(157, 0, 0);
+    /* background-color: rgb(157, 0, 0); */
 }
 .teams-card-img:hover{
-    border: 10px solid rgb(157, 0, 0);
+    /* border: 10px solid rgb(157, 0, 0); */
     transform: scale(1.2);
 
 }
 .teams-heading{
-width: 494px;
-height: 136px;
+width: 30.875rem;
+height: 8.5rem;
 font-family: 'Harmattan';
 font-style: normal;
 font-weight: 700;
-font-size: 80px;
-line-height: 136px;
+font-size: 5rem;
+line-height: 8.5rem;
 color: #161515;
+text-align: center;
 }
 
+@media only screen and (max-width: 992px){
+    .teams-heading{
+        
+        width: 20.875rem;
+        height: 5.5rem;
+        font-family: 'Harmattan';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 12.5rem;
+        color: #161515;
+        text-align: center;
+        margin-bottom: 3.5rem;
+        }
+        
+    .teams-card-container{
+        margin: -7px;
+    }
+    .teams-body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .teams-card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: -7px;
+        /* border-radius: 10px; */
+    }
+
+    .teams-card-details{
+        margin: auto;
+        margin-top: 2.5px;
+        margin-bottom: 10px;
+        width: 155px;
+        height: 51.5px;
+        background: red;
+        opacity: 1;
+        transition: transform .4s;
+    
+        /* border-radius: 20px; */
+        /* border-bottom-left-radius: 7%;
+        border-bottom-right-radius: 7%; */
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .teams-card-name{
+        font-family: 'Harmattan';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 0;
+        color: #ffff;
+        margin-top:19px;
+    }
+    .teams-card-desgn{
+        font-family: 'Harmattan';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: normal;
+        color: #ffff;
+        margin-bottom: 0px;
+    }
+    .teams-card-img{
+        margin: 12.5px;
+        width: 130px;
+        margin-bottom: 0px;
+        height: 130px;
+        /* border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-radius: 50%; */
+        transition: transform .4s;
+        border: 5px solid red;
+        border-radius: 50%;
+        z-index: 2;
+    
+    }
+}
