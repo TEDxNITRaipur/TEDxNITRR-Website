@@ -11,10 +11,11 @@ const Navbar = () => {
        <img className = 'navbar-logo-img' src ={logo} alt = "logo" />
      </div>
      <div className='navbar-navigation'>
-        <Link to = "/aboutus"><div className='navbar-nav-items'>About us</div></Link>
+        
         <Link to ="/speakers"><div className='navbar-nav-items'>Speakers</div></Link>
         <Link to ="/sponsors"><div className='navbar-nav-items'>Sponsors</div></Link>
         <Link to ="/team"><div className='navbar-nav-items'>Our Team</div></Link>
+        <Link to = "/aboutus"><div className='navbar-nav-items'>About us</div></Link>
         <Link to ="/"><div className='navbar-nav-items'>Home</div></Link>
      </div>
     </div>
