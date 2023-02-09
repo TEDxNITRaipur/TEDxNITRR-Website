@@ -7,15 +7,27 @@ import './HomePage.css';
 import Header from '../Header/Header';
 import MainPage from '../MainPage/MainPage';
 import Footer from '../Footer/Footer';
+import NavbarSm from '../NavbarSm/NavbarSm';
 
 const HomePage = () => {
   return (
     <>
     <div className='home'>
+    {/* <Navbar />  */}
+    {/* <NavbarSm /> */}
     <Header />
+    <div className="home-fixed-img">
+        <img className="home-f-image" src={img1} alt=""/>
+        <div className="home-overlayer"></div>
+        <p className="home-heading-1"><span style={{color: 'red', fontWeight: 'bold'}}>TEDx</span>NITRaipur</p>
+        <p className="home-subheading-1"><span style={{color: 'red', fontWeight: 'bold'}}>x</span> = independently organized TED event</p>
+        <p className="home-theme-heading">Theme: DARE, DEFY, DIFFER</p>
+        <p className="home-details-1">This event will occur on<br/><span style={{fontWeight: 'bold'}}>March 5, 2023</span><br/><span style={{fontWeight: 'bold'}}>DDU Auditorium, Raipur</span></p>
+        <p className="home-details-2"><span style={{fontWeight: 'bold'}}>Raipur, Chhattisgarh<br/>India</span></p>
+    </div>
     <div className="home-intro-1">
         <div className="home-photo-1">
-            <img src={img2} alt="" />
+            <img src={img2} alt=""/>
         </div>
         <div className="home-text-1">
             <h1 className="home-header-1">What is TEDx ?</h1>
@@ -25,14 +37,14 @@ const HomePage = () => {
         </div>
     </div>
     <div className="home-intro-2">
-        <div className="home-text-2">
-            <h1 className="home-header-1">What is TEDxNITRaipur ?</h1>
+        <div className="home-photo-1 home-photo-2">
+            <img src={img1} alt=""/>
+        </div>
+        <div className="home-text-1">
+            <h1 className="home-header-1">What is TEDxNITRaipur?</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit assumenda ullam inventore, dignissimos fuga perspiciatis tenetur delectus! Eos possimus architecto alias beatae. Fugiat delectus autem assumenda id illo. Commodi, sapiente.
-            </p><button className="home-learn-btn-2">Learn More</button>
-        </div>
-        <div className="home-photo-2">
-            <img src={img2} alt="" />
+            </p><button className="home-learn-btn-1">Learn More</button>
         </div>
     </div>
     <div className="home-gallery">

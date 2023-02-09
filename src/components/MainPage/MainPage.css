@@ -1,46 +1,16 @@
-
-
 #mainpage {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1EFEF;
 }
 
-#about-navbar {
-    display: flex;
-    height: 54px;
-    align-items: center;
-    background-color: gainsboro;
-}
-
-#about-navbar > div {
-    border: 1px solid black;
-    width: 50%;
-}
-
-#about-navbar-right {
-    display: flex;
-    justify-content: flex-end;
-}
-
-#navbar-btn {
-    align-items: flex-end;
-    display: inline-block;
-    border: 1px solid red;
-    padding: 0px 10px;
-
-    font-family: 'Harmattan';
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 26px;
-}
 
 #about-image {
     height: 391px;
     padding-left: 80px;
     padding-top: 70px;
     background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0.8;
+    /* opacity: 0.8; */
     backdrop-filter: blur(44.1667px);
     box-shadow: inset 44.1667px -44.1667px 44.1667px rgba(0, 0, 0, 0.1), inset -44.1667px 44.1667px 44.1667px rgba(255, 255, 255, 0.1);
     background-image: url('./main.jpg');
@@ -48,8 +18,28 @@
     color: white;
 }
 
+@media (max-width: 992px) {
+    #about-image {
+        height: fit-content;
+        padding: 20px;
+        padding-bottom: 40px;
+        background-image: url('./main.jpg');
+        background-position: center center;
+    }
+}
+
+/* @media (max-width: 992px) {
+    
+} */
+
+@media (max-width: 992px) {
+    #about-tedx-text {
+        font-size:40px !important;
+    }
+}
+
+
 #about-tedx-text {
-    font-family: 'Harmattan';
     font-size: 50px;
     line-height: 85px;
 }
@@ -68,10 +58,32 @@
     margin-bottom: 20px;
 }
 
+@media (max-width: 992px) {
+    #about-theme {
+        font-size: 30px;
+        line-height: normal;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+}
+
 #about-venue-time {
     font-size: 17.89px;
     line-height: 20.46px;
     display: flex;
+}
+
+@media (max-width: 992px) {
+    #about-venue-time{
+        font-size: 16px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 992px) {
+    #about-main > div{
+        font-size: 35px !important;
+    }
 }
 
 #about-main{
@@ -79,10 +91,33 @@
     font-weight: 400;
 }
 
+
+@media (max-width: 992px) {
+    #about-main {
+        margin: 0px 20px;
+    }
+}
+
+#about-main > div{
+    font-size: 50px;
+    line-height: 85px;
+    margin:40px 0px;
+}
+
 #about-main > p{
     font-size: 22px;
     color: #8A8787;
     line-height: 37px;
+}
+
+
+@media (max-width: 992px) {
+    #about-main > p{
+        font-size: 16px;
+        line-height: normal;
+        word-wrap: break-word;
+        line-height: normal;
+    }
 }
 
 hr{
@@ -102,11 +137,32 @@ hr{
     margin-bottom: 100px;
 }
 
+
+@media (max-width: 992px) {
+    #about-main-grid{
+        display: block;
+        padding: 50px 0px;
+        margin: 0px 20px;
+        word-break:break-word;
+    }
+    #about-main-grid-left {
+        display: none;
+    }
+    #about-main-grid-right {
+        display: none;
+    }
+    .navbar-big{
+        display: none;
+    }
+    .navbar-sm{
+        display: block;
+    }
+}
+
+
 #about-main-grid-center {
     margin-top: 40px;
     line-height: 31px;
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Harmattan';
-    font-style: normal;
 }

@@ -10,7 +10,7 @@ const Footer = () => {
 <div className='footer'>
 <div className="footer-footer">
         <div className="footer-container-1">
-            <p className="footer-heading"><span className="footer-head">TEDx</span>NITRaipur</p>
+            <p className="footer-heading footer-MAIN"><span className="footer-head">TEDx</span>NITRaipur</p>
             <ul className="footer-ul">
                 <li><Link to ="/" className="footer-ul-a">Home</Link></li>
                 <li><Link to ="/aboutus" className="footer-ul-a" href="#">About</Link></li>
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-container-2">
-            <p className="footer-heading">Social Media</p>
+            <p className="footer-heading" id="socialmediaheading">Social Media</p>
             <ul className="footer-ul socials">
                 <li><a className="footer-ul-a" href="https://www.facebook.com/tedxnitraipur" target="_blank"><div className="footer-socials-container"><img src={fb} alt=""  />Facebook</div></a></li>
                 <li><a className="footer-ul-a" href="https://www.instagram.com/tedxnitraipur/" target="_blank"><div className="footer-socials-container"><img src={insta} alt=""  />Instagram</div></a></li>
@@ -29,9 +29,9 @@ const Footer = () => {
                 <li><a className="footer-ul-a" href="https://www.youtube.com/@tedxnitraipur2481" target="_blank"><div className="footer-socials-container"><img src={yt} alt=""  />Youtube</div></a></li>
             </ul>
         </div>
-        <div className="footer-container-3">
-            <p className="footer-heading">Contact Us</p>
-            <ul className="footer-ul">
+        <div className="footer-container-3" >
+            <p className="footer-heading" id="contacts">Contact Us</p>
+            <ul className="footer-ul footer-ctn">
                 <li>Aditya Tiwari</li>
                 <li>Phone: </li>
                 <li>Aditya Tiwari</li>

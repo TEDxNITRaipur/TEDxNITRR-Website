@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
 #sponsors{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -16,95 +16,226 @@
 
 
 
-/* UPPER SECTION */
+.spons-content {
+    margin: 0 auto;
 
-.spons-intro-section{
-    /* filter: blur(1px); */
-    background: url('./img/TEDx.jpeg') no-repeat center center/cover;
-    color: white;
-    /* position: absolute; */
 }
 
-.spons-section .spons-intro-section{
-    padding: 3rem 9rem;
-}
-
-.spons-intro-section p{
-    margin: 0;
-    font-size: 900;
-}
-
-.spons-intro-section .spons-upper-sec, .spons-intro-section .spons-mid-sec{
-    margin-bottom: 2rem;
-}
-
-.spons-intro-section .spons-upper-sec h1{
-    margin-bottom: 0;
-}
-
-.spons-intro-section .spons-upper-sec span{
-    color: red;
-}
-
-.spons-intro-section h1{
-    font-weight: 700;
-}
-
-.spons-intro-section .spons-lower-sec{
-    display: flex;
-    /* justify-content: space-evenly; */
-}
-
-.spons-intro-section .spons-lower-sec .spons-lower-sec-right{
-    margin-left: 3rem;
-}
-
-
-
-
-/* CONTENT SECTION */
-
-.spons-content{
-    display: block;
-}
-
-.spons-content #spons-heading{
+.spons-content h1 {
     text-align: center;
 }
 
-.spons-content .spons-content-inner{
+.spons-content-div {
     display: flex;
     flex-wrap: wrap;
-    /* overflow: hidden; */
-    justify-content: center;
-    /* flex-flow: column; */
-    align-items: center;
-    /* margin: 1rem 3rem; */
 }
 
-.spons-content .spons-content-inner .spons-content-inner-box{
-    /* display: inline; */
-    width: fit-content;
-    height: fit-content;
-    padding: 1.2rem;
-    margin: 2rem 1rem;
-    flex-basis: 25%;
-    border: 1px solid black;
-    /* border-radius: 20px; */
-}
-
-.spons-content .spons-content-inner .spons-content-inner-box .inner-box-heading{
-    width: 30px;
-    text-align: center;
-    background-color: white;
-    /* border: 2px solid black; */
+.spons-content-inner {
+    width: max-content;
+    height: 30vh;
+    border: 3px solid red;
+    border-radius: 20px;
+    margin: 1rem auto;
+    padding: 2rem 0;
     position: relative;
-    top: -60px;
-    left: 38px;
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.spons-content .spons-content-inner .spons-content-inner-box h2{
-    width: fit-content;
-    background-color: white;
+.spons-content-inner .spons-serial h2 {
+    width: 32px;
+    /* font-size: .1rem; */
+    text-align: center;
+}
 
+.spons-content-inner img {
+    width: 15rem;
+    height: 15rem;
+    /* text-align: 0 auto; */
+    border-radius: 20px;
+}
+
+.spons-content-inner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    /* width: 15rem; */
+    text-align: center;
+    /* background: linear-gradient(#f36666, #ffffff); */
+    background-color: red;
+    backdrop-filter: 10px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.spons-content-inner .overlay .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-weight: 200;
+    line-height: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.spons-content-inner .overlay .content p {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.spons-content-inner .overlay .content h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.spons-content-inner .overlay .content #spons-serial {
+    font-weight: bolder;
+}
+
+.spons-content-inner:hover .overlay {
+    cursor: pointer;
+    opacity: .95;
+    width: auto;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1300px) {
+
+    .spons-content-inner {
+        flex-basis: 25%;
+    }
+
+    .spons-content-inner img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .spons-content-inner .overlay .content {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .spons-content-inner img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .spons-content-inner .overlay .content {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .spons-content-inner {
+        flex-basis: 33.3333%;
+    }
+
+    .spons-content-inner img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .spons-content-inner .overlay .content {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .spons-section .spons-intro-section {
+        padding: 3rem 5rem;
+        /* font-size: .rem; */
+    }
+
+
+    .spons-content-inner {
+        flex-basis: 50%;
+    }
+
+    .spons-content-inner img {
+        width: 15rem;
+        height: 15rem;
+        margin: 3rem;
+    }
+
+    .spons-content-inner .overlay .content {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .spons-section .spons-intro-section {
+        padding: 3rem 2rem;
+        /* font-size: .rem; */
+    }
+
+    .spons-intro-section .spons-upper-sec h1 {
+        font-size: 2rem;
+    }
+
+    .spons-intro-section .spons-mid-sec h1 {
+        font-size: 2rem;
+    }
+
+    .spons-intro-section .spons-lower-sec p {
+        font-size: .8rem;
+    }
+
+    .spons-content-inner .overlay .content {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .spons-content-inner img {
+        width: 12rem;
+        height: 12rem;
+        margin: 1rem;
+    }
+
+    .spons-content-inner .overlay .content {
+        font-size: 1rem;
+    }
+}  
+
+@media only screen and (max-width: 260px) {
+
+    .spons-section .spons-intro-section {
+        padding: 3rem 1rem;
+    }
+
+    .spons-intro-section .spons-upper-sec h1 {
+        font-size: 2rem;
+    }
+
+    .spons-intro-section .spons-mid-sec h1 {
+        font-size: 1.5rem;
+    }
+
+    .spons-intro-section .spons-lower-sec p {
+        font-size: .7rem;
+    }
+
+    .spons-intro-section .spons-lower-sec .spons-lower-sec-right {
+        margin-left: 2rem;
+    }
 }

@@ -22,6 +22,7 @@ a{
     align-items: center;
     justify-content: space-between;
     background-color: #252525;
+    /* backdrop-filter: blur(5px); */
     backdrop-filter: blur(10px);
     position: relative;
     z-index: 1;

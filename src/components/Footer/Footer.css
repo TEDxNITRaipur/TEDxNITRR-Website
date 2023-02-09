@@ -17,10 +17,18 @@
 }
 
 .footer-container-1{
-    /* background-color: yellow; */
+    /* background-color: yellow; */ 
+    
 }
 
+
 .footer-heading{
+    padding-left: 35px;
+    font-size: 40px;
+    color: white;
+}
+
+.footer-heading1{
     padding-left: 35px;
     font-size: 40px;
     color: white;
@@ -39,6 +47,7 @@
     font-size: 15.76px;
     color: #159CBA;
     line-height: auto;
+    margin-bottom: 0px;
 }
 
 .footer-ul-a{
@@ -71,7 +80,7 @@
     width: 198px;
     height: 34px;
     position: relative;
-    top: -45px;
+    top: -35px;
     right: -30px;
     padding: 4px;
     border-radius: 9px;
@@ -112,3 +121,126 @@ a:hover{
     opacity: 1;
     right: 0;
   }
+
+@media screen and (max-width:500px) {
+    .footer-footer{
+        position: absolute;
+        background-color: #252525;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footer-heading{
+        /* width: 100px; */
+        opacity: 0;
+        position: absolute;
+        font-size: 40px;
+        float: left;
+    }
+
+    .footer-MAIN{
+        opacity: 100%;
+        position: absolute;
+        top: 0rem;
+        height:40px;
+        left: 4rem;
+    }
+
+    .footer-container-1{
+        height: 10px;
+        margin-top: 0px;
+    }
+
+    .footer-heading.footer-MAIN{
+        top: 1px;
+        text-align: center;
+    }
+
+    .footer-container-2{
+        width: 100%;
+        position: relative;
+        /* background-color: red; */
+        /* height: 100px; */
+    }
+
+    .footer-ul{
+        position: absolute;
+        top: 8rem;
+        list-style: none;
+        width: 90%;
+        height: 50px;
+        /*background-color: yellow;*/
+        font-size: 20px;
+        color: #159CBA;
+        line-height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        left: -1.5rem;
+    }
+
+    .socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 50px;
+        position: relative;
+        top: -1rem;
+        left: -2rem;
+    }
+
+    .footer-socials-container{
+        width: 0px;
+        /*background-color: red;*/
+        overflow: hidden;
+        
+        
+    }
+    .footer-ctn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        font-size: 15px;
+        float: left;
+        padding-bottom: 20px;
+        /* height: ; */
+        top: 20rem;
+        left: -7rem;
+    }
+
+    .footer-contact-btn{
+        position: absolute;
+         left: 260px; 
+        height: 40px;
+        width: 100px;
+        top: 350px;
+    }
+
+    .footer-container-2{
+        display:block;
+    }        
+    
+
+    .footer-container-3{
+        display:block;
+    }    
+    
+    #socialmediaheading{
+        display: block;
+        top: 10px;
+        height: 1px;
+        margin: 0;
+    }
+
+    #contacts{
+        position: absolute;
+        display: block;
+        height: 0px;
+    }
+}

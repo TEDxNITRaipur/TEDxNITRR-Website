@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 import logo from '../../Images/tedLogo.png';
 import './Navbar.css';
+import Header from '../Header/Header';
 const Navbar = () => {
   return (
     <div className='navbar-parent'>

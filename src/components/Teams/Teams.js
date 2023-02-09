@@ -8,8 +8,8 @@ import Footer from '../Footer/Footer';
 const Teams = () => {
   return (
     <>
-    {/* <Header/> */}
-    <Navbar/>
+    <Header/>
+    {/* <Navbar/> */}
     <div className='teams'>
         <div className='teams-heading'>Organising Team</div>
         <div className='teams-body'>
