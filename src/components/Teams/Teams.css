@@ -110,7 +110,7 @@ text-align: center;
     .teams-card-container{
         margin: -7px;
     }
-    .teams-body{
+    /* .teams-body{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -172,5 +172,5 @@ text-align: center;
         border-radius: 50%;
         z-index: 2;
     
-    }
+    } */
 }
