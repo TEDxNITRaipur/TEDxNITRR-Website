@@ -2,6 +2,7 @@ import React from 'react'
 import './Speakers.css';
 import img1 from './img/M-hffw5a_400x400.jpg'
 import fb from './img/facebook.png'
+import linkedIn from './img/linkedin.png'
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
@@ -10,13 +11,13 @@ const Speakers = () => {
 <div id = 'speakers'>
     <Header />
    
-    <h1 style={{textAlign:'center'}}>Past Speakers</h1>
+    <h1 className='speakers-heading' style={{textAlign:'center', marginTop:'4rem'}}>Past Speakers</h1>
     <div className="speakers-section">
         <div className="speakers-about-speakers">
 
             <div className="speakers-about_indi">
                 <div className="speakers-about_img">
-                    <img src="./img/Bill_Gates.jpg" alt="" />
+                    <img src={img1} alt="" />
                 </div>
 
                 <div className="speakers-about_content">
@@ -26,8 +27,8 @@ const Speakers = () => {
                         Explicabo, tempore doloribus commodi nisi sunt placeat aliquid incidunt voluptas ex ratione
                         voluptatibus eligendi, repellendus, animi praesentium?</p>
                     <div className="speakers-link">
-                        <a href="#"><img src="./img/facebook.png" alt="" /></a>
-                        <a href="#"><img src="./img/linkedin.png" alt="" /></a>
+                        <a href="#"><img src={fb} alt="" /></a>
+                        <a href="#"><img src={linkedIn} alt="" /></a>
                     </div>
                 </div>
 
@@ -36,7 +37,7 @@ const Speakers = () => {
 
             <div className="speakers-about_indi">
                 <div className="speakers-about_img">
-                    <img src="./img/Bill_Gates.jpg" alt="" />
+                    <img src={img1} alt="" />
                 </div>
 
                 <div className="speakers-about_content">
@@ -46,8 +47,8 @@ const Speakers = () => {
                         Explicabo, tempore doloribus commodi nisi sunt placeat aliquid incidunt voluptas ex ratione
                         voluptatibus eligendi, repellendus, animi praesentium?</p>
                     <div className="speakers-link">
-                        <a href="#"><img src="./img/facebook.png" alt="" /></a>
-                        <a href="#"><img src="./img/linkedin.png" alt="" /></a>
+                        <a href="#"><img src={fb} alt="" /></a>
+                        <a href="#"><img src={linkedIn} alt="" /></a>
                     </div>
                 </div>
 
@@ -55,7 +56,7 @@ const Speakers = () => {
 
             <div className="speakers-about_indi">
                 <div className="speakers-about_img">
-                    <img src="./img/Bill_Gates.jpg" alt="" />
+                    <img src={img1} alt="" />
                 </div>
 
                 <div className="speakers-about_content">
@@ -65,8 +66,8 @@ const Speakers = () => {
                         Explicabo, tempore doloribus commodi nisi sunt placeat aliquid incidunt voluptas ex ratione
                         voluptatibus eligendi, repellendus, animi praesentium?</p>
                     <div className="speakers-link">
-                        <a href="#"><img src="./img/facebook.png" alt="" /></a>
-                        <a href="#"><img src="./img/linkedin.png" alt="" /></a>
+                        <a href="#"><img src={fb} alt="" /></a>
+                        <a href="#"><img src={linkedIn} alt="" /></a>
                     </div>
                 </div>
 
@@ -74,7 +75,7 @@ const Speakers = () => {
 
             <div className="speakers-about_indi">
                 <div className="speakers-about_img">
-                    <img src="./img/Bill_Gates.jpg" alt="" />
+                    <img src={img1} alt="" />
                 </div>
 
                 <div className="speakers-about_content">
@@ -84,8 +85,8 @@ const Speakers = () => {
                         Explicabo, tempore doloribus commodi nisi sunt placeat aliquid incidunt voluptas ex ratione
                         voluptatibus eligendi, repellendus, animi praesentium?</p>
                     <div className="speakers-link">
-                        <a href="#"><img src="./img/facebook.png" alt="" /></a>
-                        <a href="#"><img src="./img/linkedin.png" alt="" /></a>
+                        <a href="#"><img src={fb} alt="" /></a>
+                        <a href="#"><img src={linkedIn} alt="" /></a>
                     </div>
                 </div>
 
