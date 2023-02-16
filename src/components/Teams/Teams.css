@@ -63,7 +63,7 @@
     border-top-right-radius: 5%;
     /* border-radius: 50%; */
     transition: transform .4s;
-    border: 5px solid red;
+    border: 5px solid rgb(255, 65, 65);
     border-radius: 50%;
     z-index: 2;
 
@@ -72,12 +72,12 @@
     transform: scale(1.2);
 } */
 .teams-card-details:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     /* background-color: rgb(157, 0, 0); */
 }
 .teams-card-img:hover{
     /* border: 10px solid rgb(157, 0, 0); */
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 .teams-heading{

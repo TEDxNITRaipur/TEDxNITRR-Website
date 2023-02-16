@@ -97,17 +97,23 @@
     width: 2.5rem;
     margin: 10px 15px;
     border-radius: 100%;
-    transition: .6s ease-out;
+    transition: .3s ease-out;
 }
 
-.speakers-about_indi .speakers-about_content img:hover{
+.speakers-about_indi .speakers-about_content .speakers-link img:hover{
     border-radius: 0%;
+    cursor: pointer;
 }
 
 .speakers-about_indi .speakers-about_content{
     margin: 0 6rem;
 }
 
+.speakers-about_indi .speakers-about_content .speakers-about_content-abt {
+    color: red;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
 
 
 
