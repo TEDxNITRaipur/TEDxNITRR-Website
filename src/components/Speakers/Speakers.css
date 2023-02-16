@@ -52,7 +52,6 @@
 
 .speakers-intro-section .speakers-lower-sec {
     display: flex;
-    /* justify-content: space-evenly; */
 }
 
 .speakers-intro-section .speakers-lower-sec .speakers-lower-sec-right {
@@ -83,7 +82,6 @@
     margin: auto;
     padding: 20px;
     background-color: white;
-    /* border: 1px solid black; */
 }
 
 .speakers-about_indi .speakers-about_img img {
