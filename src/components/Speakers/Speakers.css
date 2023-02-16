@@ -178,6 +178,10 @@
     .speakers-section .speakers-intro-section{
         padding: 3rem;
     }
+
+    .speakers-about_indi .speakers-about_content {
+        text-align: center;
+    }
 }
 
 
