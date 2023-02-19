@@ -1,7 +1,11 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import img1 from './assets/fixed.png';
 import img2 from './assets/photo-1.jpg';
 import img3 from "./assets/ted-logo.png";
+import corousel1 from "./assets/carousel-1.png"
+import corousel2 from "./assets/carousel-2.png"
+import corousel3 from "./assets/carousel-3.png"
 import Navbar from '../Navbar/Navbar';
 import Speakers from '../Speakers/Speakers';
 import './HomePage.css';
@@ -11,6 +15,17 @@ import Footer from '../Footer/Footer';
 import NavbarSm from '../NavbarSm/NavbarSm';
 
 const HomePage = () => {
+
+   const [selectedImg, setselectedImg] = useState(0)
+   const [allImages, setallImages] = useState([corousel1, corousel2, corousel3])
+
+   useEffect(() => {
+    setInterval(() => {
+        setselectedImg(selectedImg => selectedImg < 2 ? selectedImg+1 : 0)
+    }, 4000);
+   }, [])
+   
+
     return (
         <>
             <div className='home'>
@@ -23,7 +38,7 @@ const HomePage = () => {
                     <p className="home-heading-1"><span style={{ color: 'red', fontWeight: 'bold' }}>TEDx</span>NITRaipur</p>
                     <p className="home-subheading-1"><span style={{ color: 'red', fontWeight: 'bold' }}>x</span> = independently organized TED event</p>
                     <p className="home-theme-heading">Theme: DARE, DEFY, DIFFER</p>
-                    <p className="home-details-1">This event will occur on<br /><span style={{ fontWeight: 'bold' }}>March 5, 2023</span><br /><span style={{ fontWeight: 'bold' }}>DDU Auditorium, Raipur</span></p>
+                    <p className="home-details-1">This event will occur on<br /><span style={{ fontWeight: 'bold' }}>March 2023</span><br /><span style={{ fontWeight: 'bold' }}>DDU Auditorium, Raipur</span></p>
                     <p className="home-details-2"><span style={{ fontWeight: 'bold' }}>Raipur, Chhattisgarh<br />India</span></p>
                 </div>
 
@@ -71,23 +86,7 @@ const HomePage = () => {
                         <h1 className="home-header-1">TEDxNITRaipur Gallery</h1>
                     </div>
                     <div className="home-carousel-wrapper">
-                        <span id="home-item-1"></span>
-                        <span id="home-item-2"></span>
-                        <span id="home-item-3"></span>
-                        <div className="home-carousel-item home-item-1">
-                            <a href="#home-item-3" className="home-arrow-prev home-arrow"></a>
-                            <a href="#home-item-2" className="home-arrow-next home-arrow"></a>
-                        </div>
-
-                        <div className="home-carousel-item home-item-2">
-                            <a href="#home-item-1" className="home-arrow-prev home-arrow"></a>
-                            <a href="#home-item-3" className="home-arrow-next home-arrow"></a>
-                        </div>
-
-                        <div className="home-carousel-item home-item-3">
-                            <a href="#home-item-2" className="home-arrow-prev home-arrow"></a>
-                            <a href="#home-item-1" className="home-arrow-next home-arrow"></a>
-                        </div>
+                        <img src={allImages[selectedImg]}/>
                     </div>
                 </div>
                 <Footer />
