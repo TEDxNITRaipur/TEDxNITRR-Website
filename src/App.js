@@ -11,17 +11,17 @@ import ScrollToTop from './ScrollToTop';
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
-    <ScrollToTop/>
-    <Routes>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
           <Route index element={<HomePage />} />
-          <Route path="aboutus" element={<MainPage/>} />
+          <Route path="aboutus" element={<MainPage />} />
           <Route path="speakers" element={<Speakers />} />
           <Route path="sponsors" element={<Sponsors />} />
           <Route path="team" element={<Teams />} />
           <Route path="*" element={<Contact />} />
-    </Routes>
-    </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

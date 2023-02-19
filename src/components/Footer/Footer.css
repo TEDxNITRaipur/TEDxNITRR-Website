@@ -92,6 +92,16 @@
     text-align: center;
 }
 
+.footer-ctn-links {
+    color: red;
+    transition: .3s;
+}
+
+.footer-ctn-links:hover {
+    color: white;
+    /* transition: .3s; */
+}
+
 a:hover{
     color: red;
 }

@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
-a{
-  text-decoration: none;
+
+a {
+    text-decoration: none;
 }
-.navbar-logo{
-    margin:4px 15px 2px 15px;
+
+.navbar-logo {
+    margin: 15px 30px 10px 30px;
 }
-.navbar-logo-img{
+
+.navbar-logo-img {
     max-width: 120px;
     /* max-height: 50px; */
 }
-.navbar-parent{
+
+.navbar-parent {
     z-index: 9999;
     width: 100%;
     position: sticky;
     top: 0px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,13 +34,14 @@ a{
     /* padding: 1% 2%; */
 }
 
-.navbar-navigation{
+.navbar-navigation {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
     /* justify-content: space-around; */
 }
+
 .navbar-nav-items {
     font-family: var(--font-family);
     justify-content: space-evenly;
@@ -54,16 +59,19 @@ a{
     color: #ffffff;
     cursor: pointer;
 }
+
 .navbar-nav-items:hover {
     color: #f70000;
 }
+
 .navbar-nav-items:after {
-    display:block;
+    display: block;
     content: '';
     border-bottom: 2px solid #f70000;
-    transform: scaleX(0);  
-  transition: transform 250ms ease-in-out;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
 }
+
 .navbar-nav-items:hover::after {
     transform: scaleX(1);
 }

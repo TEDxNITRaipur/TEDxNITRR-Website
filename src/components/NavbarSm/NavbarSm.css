@@ -19,8 +19,14 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  height: 40px;
+  width: 40px;
+}
+
+.bm-cross-button span {
+  position: absolute;
+  top: 12px;
+  right: 20px;
 }
 
 /* Color/shape of close button cross */
