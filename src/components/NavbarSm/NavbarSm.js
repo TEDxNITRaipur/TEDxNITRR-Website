@@ -1,7 +1,8 @@
 import React, { useState } from "react"
-// import './NavbarSm.css';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from "react-router-dom";
+import "./NavbarSm.css"
+
 const NavbarSm = () => {
   var styles = {
     bmBurgerButton: {
@@ -18,8 +19,8 @@ const NavbarSm = () => {
       background: '#a90000'
     },
     bmCrossButton: {
-      height: '24px',
-      width: '24px'
+      height: '40px',
+      width: '40px'
     },
     bmCross: {
       background: '#bdc3c7'
@@ -47,18 +48,18 @@ const NavbarSm = () => {
       background: 'rgba(0, 0, 0, 0.3)'
     }
   }
-  
+
   return (
     <>
-     <Menu styles={styles}>
-       
-        <Link to ="/speakers"><div className='navbar-nav-items'>Speakers</div></Link>
-        <Link to ="/sponsors"><div className='navbar-nav-items'>Sponsors</div></Link>
-        <Link to ="/team"><div className='navbar-nav-items'>Our Team</div></Link>
-        <Link to = "/aboutus"><div className='navbar-nav-items'>About us</div></Link>
-        <Link to ="/"><div className='navbar-nav-items'>Home</div></Link>
-        
-     </Menu>
+      <Menu styles={styles}>
+
+        <Link to="/"><div className='navbar-nav-items'>Home</div></Link>
+        <Link to="/speakers"><div className='navbar-nav-items'>Speakers</div></Link>
+        <Link to="/sponsors"><div className='navbar-nav-items'>Sponsors</div></Link>
+        <Link to="/team"><div className='navbar-nav-items'>Our Team</div></Link>
+        <Link to="/aboutus"><div className='navbar-nav-items'>About us</div></Link>
+
+      </Menu>
     </>
   )
 }

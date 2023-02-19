@@ -75,6 +75,10 @@
     display: flex;
 }
 
+.speakers-about_indi:last-child {
+    border: none;
+}
+
 .speakers-about_indi .speakers-about_img {
     position: relative;
     left: 0rem;
@@ -95,7 +99,7 @@
     width: 2.5rem;
     margin: 10px 15px;
     border-radius: 100%;
-    transition: .3s ease-out;
+    transition: .5s ease-out;
 }
 
 .speakers-about_indi .speakers-about_content .speakers-link img:hover{

@@ -1,4 +1,4 @@
-.teams{
+.teams {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,12 +6,44 @@
     background-color: #F1EFEF;
 }
 
-.teams-body{
+.teams hr {
+    height: 10px;
+    background-color: red;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.teams-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams-body-head {
+    font-size: 3rem;
+    margin-top: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+.teams-body-head h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: red;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.teams-body-detail {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
-.teams-card-container{
+
+.teams-card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +51,8 @@
     margin: 20px;
     /* border-radius: 10px; */
 }
-.teams-card-details{
+
+.teams-card-details {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 35px;
@@ -34,18 +67,20 @@
     border-bottom-right-radius: 7%; */
     display: flex;
     flex-direction: column;
-   
+
 }
-.teams-card-name{
+
+.teams-card-name {
     font-family: 'Harmattan';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 0;
     color: #ffff;
-    margin-top:38px;
+    margin-top: 38px;
 }
-.teams-card-desgn{
+
+.teams-card-desgn {
     font-family: 'Harmattan';
     font-style: normal;
     font-weight: 400;
@@ -54,7 +89,8 @@
     color: #ffff;
     margin-bottom: 0px;
 }
-.teams-card-img{
+
+.teams-card-img {
     margin: 25px;
     width: 260px;
     margin-bottom: 0px;
@@ -68,33 +104,36 @@
     z-index: 2;
 
 }
+
 /* .teams-card-container:hover{
     transform: scale(1.2);
 } */
-.teams-card-details:hover{
+.teams-card-details:hover {
     transform: scale(1.1);
     /* background-color: rgb(157, 0, 0); */
 }
-.teams-card-img:hover{
+
+.teams-card-img:hover {
     /* border: 10px solid rgb(157, 0, 0); */
     transform: scale(1.1);
 
 }
-.teams-heading{
-width: 30.875rem;
-height: 8.5rem;
-font-family: 'Harmattan';
-font-style: normal;
-font-weight: 700;
-font-size: 5rem;
-line-height: 8.5rem;
-color: #161515;
-text-align: center;
+
+.teams-heading {
+    width: 30.875rem;
+    height: 8.5rem;
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 8.5rem;
+    color: #161515;
+    text-align: center;
 }
 
-@media only screen and (max-width: 992px){
-    .teams-heading{
-        
+@media only screen and (max-width: 992px) {
+    .teams-heading {
+
         width: 20.875rem;
         height: 5.5rem;
         font-family: 'Harmattan';
@@ -105,10 +144,23 @@ text-align: center;
         color: #161515;
         text-align: center;
         margin-bottom: 3.5rem;
-        }
-        
-    .teams-card-container{
+    }
+
+    .teams-card-container {
         margin: -7px;
     }
+
+}
+
+@media only screen and (max-width: 628px) {
+
+    .teams-body-head {
+        margin-bottom: 1.5rem;
+    }
     
+    .teams-body-head h1 { 
+        line-height: 4rem;
+        font-size: 2.5rem;
+    }
+
 }

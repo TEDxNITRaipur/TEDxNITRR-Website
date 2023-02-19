@@ -36,7 +36,7 @@ const HomePage = () => {
                         <p>
                             TED is a non-profit global community that invites and advances individuals from different cultures and disciplines who seek a deeper understanding of the world. Fully devoted to the motto, ‘Ideas worth spreading’, TED was founded in 1984 as a conference that brought together technology, entertainment, and design. It now offers content in more than 100 languages on practically all subjects, including business, global challenges, and science.
 
-                        </p><button className="home-learn-btn-1">Learn More</button>
+                        </p>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ const HomePage = () => {
                         <h1 className="home-header-1">What is TEDx ?</h1>
                         <p>
                             x signifies an independently organized TED event. With the mission of ideas worth spreading, TED created an initiative named TEDx to convey forward TED-like insight within the surrounding networks and local communities through self-coordinated events. TEDx events incorporate live speaker sessions that bring forward like-minded people and are conducted freely under a free permit conceded by TED. The craft of narrating on the stage with flash discussions and sharing their earned experience is made possible by an enthusiastic team who plan and organize the event, adhering to the rules of TED.
-                        </p><button className="home-learn-btn-1">Learn More</button>
+                        </p>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ const HomePage = () => {
                             TEDxNITRaipur is a full-day conference scheduled with speakers, curated from thought leaders in India and abroad as well as grassroots speakers sharing their inspiring, untold stories. It offers a platform to bring together, technology, entertainment, and design from various visionaries and
                             intellects. It has expanded and changed over the years as part of its mission to advance the TED principles. We aspire to inspire people in and around Raipur, and beyond, by introducing these creative brains to society.
 
-                        </p><button className="home-learn-btn-1">Learn More</button>
+                        </p>
                     </div>
                 </div>
 
