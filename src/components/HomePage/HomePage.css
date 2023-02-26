@@ -4,6 +4,18 @@ body {
     font-family: 'Harmattan', sans-serif;
 }
 
+/* .content {
+    background-color: rgb(249, 249, 249);
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80rem;
+    width: 100%;
+  } */
+
 .home-navbar {
     width: 100%;
     background-color: white;
@@ -180,15 +192,40 @@ body {
 }
 
 .home-carousel-wrapper {
-    position: relative;
-    width: 1000px;
-    height: 500px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 40px;
     margin-top: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-    border: 2px solid black;
-    align-self: auto;
+    /* align-items: auto; */
+}
+
+.home-carousel-wrapper-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.2rem .5rem;
+}
+
+.home-carousel-wrapper-btn-innerBtn {
+    padding: 8px 27px;
+    background-color: red;
+    border-style: none;
+    border-radius: 0.5rem;
+    font-weight: 900;
+    font-size: larger;
+    transition: .4s;
+}
+
+.home-carousel-wrapper-btn-innerBtn:hover{
+    background-color: rgb(212, 39, 39);
+    color: white;
+}
+
+.home-carousel-wrapper .carousel img:hover{
+    cursor:grab;
 }
 
 .home-carousel-wrapper img {
@@ -444,13 +481,19 @@ body {
 
     .home-carousel-wrapper {
         position: relative;
-        width: fit-content;
-        height: auto;
-        display: block;
+        /* height: 1px; */
+        width: 28rem;
         border: 2px solid black;
-        align-self: auto;
-        margin: auto;
+        margin: 0 auto;
         background-color: red;
+    }
+
+    .home-carousel-wrapper img {
+        height: 25rem;
+    }
+
+    .home-carousel-wrapper img:hover{
+        cursor: pointer;
     }
 
     .home-carousel-item {
@@ -519,5 +562,19 @@ body {
     #home-item-3:target~.home-item-3 {
         z-index: 3;
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home-carousel-wrapper {
+        position: relative;
+        width: 20rem;
+        border: 2px solid black;
+        margin: 0 auto;
+        background-color: red;
+    }
+
+    .home-carousel-wrapper img {
+        height: 20rem;
     }
 }

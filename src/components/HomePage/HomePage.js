@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import img1 from './assets/fixed.png';
 import img2 from './assets/photo-1.jpg';
 import img3 from "./assets/ted-logo.png";
@@ -13,18 +13,22 @@ import Header from '../Header/Header';
 import MainPage from '../MainPage/MainPage';
 import Footer from '../Footer/Footer';
 import NavbarSm from '../NavbarSm/NavbarSm';
+import { Carousel } from 'antd';  //added "ANT DESIGN" css framework for carousel effect
 
 const HomePage = () => {
 
-   const [selectedImg, setselectedImg] = useState(0)
-   const [allImages, setallImages] = useState([corousel1, corousel2, corousel3])
+    // const [selectedImg, setselectedImg] = useState(0)
+    // const [allImages, setallImages] = useState([corousel1, corousel2, corousel3])
 
-   useEffect(() => {
-    setInterval(() => {
-        setselectedImg(selectedImg => selectedImg < 2 ? selectedImg+1 : 0)
-    }, 4000);
-   }, [])
-   
+    // useEffect(() => {
+    //     setInterval(() => {
+    //         setselectedImg(selectedImg => selectedImg < 2 ? selectedImg + 1 : 0)
+    //     }, 4000);
+    // }, [])
+
+
+    // used "useRef" hook for the buttons of carousel effect.
+    const ref = useRef()
 
     return (
         <>
@@ -85,10 +89,55 @@ const HomePage = () => {
                     <div className="home-text-3">
                         <h1 className="home-header-1">TEDxNITRaipur Gallery</h1>
                     </div>
+
+                    {/* <div className="home-carousel-wrapper">
+                        <img src={allImages[selectedImg]} />
+                    </div> */}
+
                     <div className="home-carousel-wrapper">
-                        <img src={allImages[selectedImg]}/>
+
+                        <Carousel
+                            className='carousel'
+                            autoplay
+                            dots={true}
+                            pauseOnHover={true}
+                            ref={ref}
+                        >
+                            <img src={corousel1} />
+                            <img src={corousel2} />
+                            <img src={corousel3} />
+                        </Carousel>
+
+                        {/* <div className='home-carousel-wrapper-btn'>
+
+                        </div> */}
+
+                        <div className='home-carousel-wrapper-btn'>
+
+                            <button className='home-carousel-wrapper-btn-innerBtn' z
+                                onClick={() => {
+                                    ref.current.prev()
+                                }}
+                            >
+                                {/* &#8592; */}
+                                &#60;
+                            </button>
+
+                            <button className='home-carousel-wrapper-btn-innerBtn'
+                                onClick={() => {
+                                    ref.current.next()
+                                }}
+                            >
+                                {/* &#8594; */}
+                                &#62;
+                            </button>
+
+                        </div>
+
                     </div>
+
                 </div>
+
                 <Footer />
             </div>
         </>

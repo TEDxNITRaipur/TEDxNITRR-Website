@@ -9,7 +9,7 @@ import yt from './assets/yt.png';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <div className="footer-footer">
                 <div className="footer-container-1">
                     <p className="footer-heading footer-MAIN"><span className="footer-head">TEDx</span>NITRaipur</p>
@@ -36,13 +36,13 @@ const Footer = () => {
                     <ul className="footer-ul footer-ctn">
                         <li>Aditya Tiwari</li>
                         <li>Phone: <a className='footer-ctn-links' href='tel:+91-8188973730'>+91-8188973730</a> </li>
-                        <li>Vasudha</li>
+                        <li>B. Vasudha</li>
                         <li>Phone: <a className='footer-ctn-links' href='tel:+91-9340322829'>+91-9340322829 </a> </li>
                     </ul>
                     <button className="footer-contact-btn" style={{ verticalAlign: 'middle' }}><a href='mailto:tedxnitraipur@nitrr.ac.in'><span style={{ color: "white" }}>Don't hesitate to mail us</span></a></button>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 
