@@ -24,7 +24,6 @@
 .teams-body-head {
     font-size: 3rem;
     margin-top: 0;
-    background-color: rgb(233, 233, 233);
 }
 
 .teams-body-head h1 {
@@ -32,8 +31,6 @@
     margin-top: 0;
     color: red;
     padding: 1rem;
-    border: 2px solid black;
-    border-radius: 5px;
 }
 
 .teams-body-detail {
@@ -61,13 +58,9 @@
     background: red;
     opacity: 1;
     transition: transform .4s;
-
-    /* border-radius: 20px; */
-    /* border-bottom-left-radius: 7%;
-    border-bottom-right-radius: 7%; */
     display: flex;
     flex-direction: column;
-
+    border-radius: 2rem;
 }
 
 .teams-card-name {
@@ -102,21 +95,19 @@
     border: 5px solid rgb(255, 65, 65);
     border-radius: 50%;
     z-index: 2;
-
 }
 
 /* .teams-card-container:hover{
     transform: scale(1.2);
 } */
 .teams-card-details:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1) */
     /* background-color: rgb(157, 0, 0); */
 }
 
 .teams-card-img:hover {
     /* border: 10px solid rgb(157, 0, 0); */
-    transform: scale(1.1);
-
+    transform: scale(1.05);
 }
 
 .teams-heading {

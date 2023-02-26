@@ -1,7 +1,7 @@
 import React from 'react'
 
 import fb from "./img/facebook.png"
-import insta_img from "./img/insta_img.jpeg"; 
+import insta_img from "./img/insta_icon.png"; 
 
 const SpeakersTemplate = (props) => {
     return (

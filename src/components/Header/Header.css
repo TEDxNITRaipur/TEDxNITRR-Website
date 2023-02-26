@@ -1,22 +1,24 @@
-.home1{
+.home1 {
     padding: 0%;
     margin: 0%;
     font-family: 'Harmattan', sans-serif;
 }
-.home2{
+
+.home2 {
     display: none;
 }
 
 
 
 @media (max-width: 992px) {
-.home2{
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Harmattan', sans-serif;
-    display: flex;
-}
-.home1{
-    display: none;
-}
+    .home2 {
+        padding: 0%;
+        margin: 0%;
+        font-family: 'Harmattan', sans-serif;
+        display: flex;
+    }
+
+    .home1 {
+        display: none;
+    }
 }
