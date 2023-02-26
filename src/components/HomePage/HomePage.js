@@ -3,9 +3,6 @@ import { useState, useEffect, useRef } from 'react';
 import img1 from './assets/fixed.png';
 import img2 from './assets/photo-1.jpg';
 import img3 from "./assets/ted-logo.png";
-import corousel1 from "./assets/carousel-1.png"
-import corousel2 from "./assets/carousel-2.png"
-import corousel3 from "./assets/carousel-3.png"
 import Navbar from '../Navbar/Navbar';
 import Speakers from '../Speakers/Speakers';
 import './HomePage.css';
@@ -14,6 +11,25 @@ import MainPage from '../MainPage/MainPage';
 import Footer from '../Footer/Footer';
 import NavbarSm from '../NavbarSm/NavbarSm';
 import { Carousel } from 'antd';  //added "ANT DESIGN" css framework for carousel effect
+
+
+// GALLERY IMAGES
+import corousel1 from "./assets/carousel-1.png"
+import corousel2 from "./assets/carousel-2.png"
+import corousel3 from "./assets/carousel-3.png"
+import carousel6 from "./assets/carousel-6.jpg"
+import carousel7 from "./assets/carousel-7.jpg"
+import carousel8 from "./assets/carousel-8.jpg"
+import carousel9 from "./assets/carousel-9.jpg"
+import carousel10 from "./assets/carousel-10.jpg"
+import carousel12 from "./assets/carousel-12.jpg"
+import carousel13 from "./assets/carousel-13.jpg"
+import carousel14 from "./assets/carousel-14.jpg"
+import carousel15 from "./assets/carousel-15.jpg"
+import carousel16 from "./assets/carousel-16.jpg"
+import carousel17 from "./assets/carousel-17.jpg"
+
+
 
 const HomePage = () => {
 
@@ -106,6 +122,17 @@ const HomePage = () => {
                             <img src={corousel1} />
                             <img src={corousel2} />
                             <img src={corousel3} />
+                            <img src={carousel6}/>
+                            <img src={carousel7}/>
+                            <img src={carousel8}/>
+                            <img src={carousel9}/>
+                            <img src={carousel10}/>
+                            <img src={carousel12}/>
+                            <img src={carousel13}/>
+                            <img src={carousel14}/>
+                            <img src={carousel15}/>
+                            <img src={carousel16}/>
+                            <img src={carousel17}/>
                         </Carousel>
 
                         {/* <div className='home-carousel-wrapper-btn'>
