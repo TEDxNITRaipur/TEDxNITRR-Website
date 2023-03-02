@@ -13,22 +13,31 @@ import NavbarSm from '../NavbarSm/NavbarSm';
 import { Carousel } from 'antd';  //added "ANT DESIGN" css framework for carousel effect
 
 
-// GALLERY IMAGES
-import corousel1 from "./assets/carousel-1.png"
-import corousel2 from "./assets/carousel-2.png"
-import corousel3 from "./assets/carousel-3.png"
-import carousel6 from "./assets/carousel-6.jpg"
-import carousel7 from "./assets/carousel-7.jpg"
-import carousel8 from "./assets/carousel-8.jpg"
-import carousel9 from "./assets/carousel-9.jpg"
-import carousel10 from "./assets/carousel-10.jpg"
-import carousel12 from "./assets/carousel-12.jpg"
-import carousel13 from "./assets/carousel-13.jpg"
-import carousel14 from "./assets/carousel-14.jpg"
-import carousel15 from "./assets/carousel-15.jpg"
-import carousel16 from "./assets/carousel-16.jpg"
-import carousel17 from "./assets/carousel-17.jpg"
+// GALLERY IMAGES- past speakers
+// import corousel1 from "./assets/carousel-1.png"
+// import corousel2 from "./assets/carousel-2.png"
+// import corousel3 from "./assets/carousel-3.png"
+// import carousel6 from "./assets/carousel-6.jpg"
+// import carousel7 from "./assets/carousel-7.jpg"
+// import carousel8 from "./assets/carousel-8.jpg"
+// import carousel9 from "./assets/carousel-9.jpg"
+// import carousel10 from "./assets/carousel-10.jpg"
+// import carousel12 from "./assets/carousel-12.jpg"
+// import carousel13 from "./assets/carousel-13.jpg"
+// import carousel14 from "./assets/carousel-14.jpg"
+// import carousel15 from "./assets/carousel-15.jpg"
+// import carousel16 from "./assets/carousel-16.jpg"
+// import carousel17 from "./assets/carousel-17.jpg"
 
+
+// GALLERY IMAGES- 2023 speakers 
+import carousel1 from "./assets/2023_speakers_img/aarzoo_poster.jpg"
+import carousel2 from "./assets/2023_speakers_img/anand_poster.jpg"
+import carousel3 from "./assets/2023_speakers_img/deepak_poster.jpg"
+import carousel4 from "./assets/2023_speakers_img/ocean_poster.jpg"
+import carousel5 from "./assets/2023_speakers_img/prakhar_poster.jpg"
+import carousel6 from "./assets/2023_speakers_img/rajat_poster.jpg"
+import carousel7 from "./assets/2023_speakers_img/srinivas_Poster.jpg"
 
 
 const HomePage = () => {
@@ -119,12 +128,14 @@ const HomePage = () => {
                             pauseOnHover={true}
                             ref={ref}
                         >
-                            <img src={corousel1} />
-                            <img src={corousel2} />
-                            <img src={corousel3} />
                             <img src={carousel6}/>
+                            <img src={carousel1} />
+                            <img src={carousel2} />
+                            <img src={carousel3} />
+                            <img src={carousel4} />
+                            <img src={carousel5} />
                             <img src={carousel7}/>
-                            <img src={carousel8}/>
+                            {/* <img src={carousel8}/>
                             <img src={carousel9}/>
                             <img src={carousel10}/>
                             <img src={carousel12}/>
@@ -132,7 +143,7 @@ const HomePage = () => {
                             <img src={carousel14}/>
                             <img src={carousel15}/>
                             <img src={carousel16}/>
-                            <img src={carousel17}/>
+                            <img src={carousel17}/> */}
                         </Carousel>
 
                         {/* <div className='home-carousel-wrapper-btn'>

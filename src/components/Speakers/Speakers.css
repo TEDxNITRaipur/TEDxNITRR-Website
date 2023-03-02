@@ -14,6 +14,7 @@
 
 #speakers h1 {
     font-size: 3rem;
+    margin: 0;
 }
 
 #speakers h1 span{
@@ -120,13 +121,18 @@
     margin: 0 6rem;
 }
 
-.speakers-about_indi .speakers-about_content .speakers-about_content-abt {
+.speakers-about_indi .speakers-about_content .speakers-about_content-desgn {
     color: red;
     font-weight: 500;
     font-size: 1.7rem;
+    margin: 0.8rem 0;
+    line-height: 1.2;
 }
 
-
+.speakers-about_indi .speakers-about_content .speakers-about_content-abt{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
 
 
 
@@ -172,13 +178,14 @@
 
     .speakers-about_indi .speakers-about_content .speakers-link{
         text-align: center;
+        margin: 2rem;
     }
 }
 
 
 @media only screen and (max-width: 560px){
     #speakers h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
         /* width: 30rem; */
     }
     
