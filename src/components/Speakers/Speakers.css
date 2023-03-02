@@ -14,8 +14,13 @@
 
 #speakers h1 {
     font-size: 3rem;
+    margin: 0;
 }
 
+#speakers h1 span{
+    color: red;
+    font-weight: 600;
+}
 
 
 
@@ -73,6 +78,9 @@
     /* border-radius: 8px; */
     padding: 2rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .speakers-about_indi:last-child {
@@ -99,27 +107,32 @@
     width: 2.5rem;
     margin: 10px 15px;
     /* border-radius: 100%; */
-    transition: .3s ease-out;
+    transition: .2s ease-out;
 }
 
 .speakers-about_indi .speakers-about_content .speakers-link img:hover{
     /* border-radius: 0%; */
     cursor: pointer;
     /* filter: hue-rotate(40deg); */
-    filter: drop-shadow(4px 8px 8px grey);
+    filter: drop-shadow(4px 4px 4px grey);
 }
 
 .speakers-about_indi .speakers-about_content{
     margin: 0 6rem;
 }
 
-.speakers-about_indi .speakers-about_content .speakers-about_content-abt {
+.speakers-about_indi .speakers-about_content .speakers-about_content-desgn {
     color: red;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    margin: 0.8rem 0;
+    line-height: 1.2;
 }
 
-
+.speakers-about_indi .speakers-about_content .speakers-about_content-abt{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
 
 
 
@@ -133,7 +146,8 @@
         /* text-align: center; */
     }
 
-    .speakers-about_indi .speakers-about_content h1{
+    .speakers-about_indi .speakers-about_content h1,
+    .speakers-about_indi .speakers-about_content p{
         text-align: center;
     } 
 
@@ -164,13 +178,15 @@
 
     .speakers-about_indi .speakers-about_content .speakers-link{
         text-align: center;
+        margin: 2rem;
     }
 }
 
 
 @media only screen and (max-width: 560px){
     #speakers h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
+        /* width: 30rem; */
     }
     
     .speakers-intro-section h1 {
@@ -217,7 +233,7 @@
 
     .speakers-about_indi  {
         width: 90%;
-        margin: 0rem auto;
+        margin: 2rem auto;
         padding: 0;
     }
 

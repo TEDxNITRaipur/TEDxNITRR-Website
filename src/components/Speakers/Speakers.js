@@ -29,7 +29,7 @@ const Speakers = () => {
         <div id='speakers'>
             <Header />
 
-            <h1 className='speakers-heading' style={{ textAlign: 'center', marginTop: '4rem'}}>Past Speakers</h1>
+            <h1 className='speakers-heading' style={{ textAlign: 'center', margin: '4rem 0'}}> Speakers for <span>TEDx</span> 6.0</h1>
             <div className="speakers-section">
                 <div className="speakers-about-speakers">
 

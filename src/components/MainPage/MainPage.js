@@ -14,7 +14,7 @@ const MainPage = () => {
             <Header />
             <div id="about-main">
                 <div style={{ fontSize: '70px', lineHeight: '85px', margin: '40px 0px' }}>
-                    TEDxNITRaipur 6.O
+                    <span style={{color: "red", fontWeight: "700"}}>TEDx</span>NITRaipur 6.O
                 </div>
                 <p>
                     <span style={{ fontWeight: "800", color: "red" }}>TedxNITRaipur</span> is returning as a physical event following a two-year gap! As a TEDx community, we offer sessions that are inspiring and engaging and provide a chance to speak up about your ideas whether you are an audience or speaker. Rejuvenating genuine stories connecting all the people involved with the philosophy of publicize-educate-inspire-attract. Speakers from various domains will take the stage to inspire the minds and hearts of students. In addition, we would be having local speakers from Chhattisgarh itself, to exhibit the ability that the state holds. Promotional events filled with fun activities will come as a complete package. With this chance to restart and fuel up ourselves and the theme of DARE, DEFY, DIFFER come join us at TEDxNITRaipur to make the most out of this year and welcome life back to normalcy. To be held at the city's focal point, the renowned Pandit Deendayal Upadhyay Auditorium Raipur. Well-kept auditoriums, and brilliant works of art portraying the way of life of the state invite us. Perfect for a huge crowd. Many motivational speakers and budding game changers are provided with opportunities to volunteer their time. Not only a source of inspiration but also a grand celebration of THE TEDxNITRaipur, one of NIT Raipur's most celebraTED communities.

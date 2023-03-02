@@ -111,6 +111,10 @@ body {
     margin: 0;
 }
 
+.home-header-1 span{
+    color: red;
+}
+
 .home-text-1 {
     padding: 5%;
     width: 70%;

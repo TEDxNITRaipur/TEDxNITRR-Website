@@ -12,8 +12,8 @@ const SpeakersTemplate = (props) => {
 
             <div className="speakers-about_content">
                 <h1>{props.name}</h1>
-                <p className='speakers-about_content-abt'>{props.prof}</p>
-                <p>{props.abt}</p>
+                <p className='speakers-about_content-desgn'>{props.prof}</p>
+                <p className='speakers-about_content-abt'>{props.abt}</p>
                 <div className="speakers-link">
                     <a target='_blank' href={props.fb_id}><img src={fb} alt="" /></a>
                     <a target="_blank" href={props.insta_id}><img src={insta_img} alt="" /></a>
