@@ -1,3 +1,4 @@
+import { hover } from "@testing-library/user-event/dist/hover";
 import React, { useState } from "react"
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from "react-router-dom";
@@ -23,7 +24,7 @@ const NavbarSm = () => {
       width: '40px'
     },
     bmCross: {
-      background: '#bdc3c7'
+      background: 'red'
     },
     bmMenuWrap: {
       position: 'fixed',
@@ -45,7 +46,7 @@ const NavbarSm = () => {
       display: 'inline-block'
     },
     bmOverlay: {
-      background: 'rgba(0, 0, 0, 0.3)'
+      background: 'rgba(0, 0, 0, 0.5)'
     }
   }
 

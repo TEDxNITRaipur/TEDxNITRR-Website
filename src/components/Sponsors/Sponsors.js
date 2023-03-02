@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import './Sponsors.css';
 import spons1 from './img/tree.jpg'
 import Header from '../Header/Header';
-import SponsData from "./SponsData"
+import SponsData from "./spons_2023_data.js"
 import SponsCard from "./SponsCard"
 
 
@@ -16,7 +16,7 @@ const Sponsors = () => {
             <div className="spons-section">
                 <div className="spons-content">
 
-                    <h1 id="spons-heading">Past Sponsors</h1>
+                    <h1 id="spons-heading">Our Sponsors</h1>
 
                     <div className="spons-content-div">
 

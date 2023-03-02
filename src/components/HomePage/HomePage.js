@@ -103,7 +103,7 @@ const HomePage = () => {
 
                 <div className="home-gallery">
                     <div className="home-text-3">
-                        <h1 className="home-header-1">TEDxNITRaipur Gallery</h1>
+                        <h1 className="home-header-1"><span>TEDx</span>NITRaipur Gallery</h1>
                     </div>
 
                     {/* <div className="home-carousel-wrapper">

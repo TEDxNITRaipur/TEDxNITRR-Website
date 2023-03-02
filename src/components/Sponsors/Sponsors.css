@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
 #sponsors{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -55,21 +55,21 @@
     border-radius: 20px;
 }
 
-.spons-content-inner .overlay {
+/* ADD OVERLAY EFFECT BY DE-COMMENTING THE BELOW CSS */
+
+/* .spons-content-inner .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 0;
-    /* width: 15rem; */
     text-align: center;
-    /* background: linear-gradient(#f36666, #ffffff); */
     background-color: rgb(255, 67, 67);
     backdrop-filter: 10px;
     border-radius: 20px;
     transition: .5s;
-}
+} */
 
 .spons-content-inner .overlay .content {
     position: absolute;
