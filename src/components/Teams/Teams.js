@@ -16,7 +16,7 @@ const Teams = () => {
       <Header />
       {/* <Navbar/> */}
       <div className='teams'>
-        <div className='teams-heading'>Organising Team</div>
+        <h1 className='teams-heading'>Organising Team</h1>
 
         {/* HEAD COORDINATOR SECTION */}
 

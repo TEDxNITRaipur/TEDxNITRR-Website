@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 .teams {
     display: flex;
     align-items: center;
@@ -7,7 +9,7 @@
 }
 
 .teams hr {
-    height: 10px;
+    height: 5px;
     background-color: red;
     width: 100%;
     margin-bottom: 20px;
@@ -71,6 +73,7 @@
     line-height: 0;
     color: #ffff;
     margin-top: 38px;
+    /* padding: .5rem; */
 }
 
 .teams-card-desgn {
@@ -107,19 +110,17 @@
 
 .teams-card-img:hover {
     /* border: 10px solid rgb(157, 0, 0); */
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 .teams-heading {
-    width: 30.875rem;
     height: 8.5rem;
-    font-family: 'Harmattan';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 5rem;
-    line-height: 8.5rem;
+    font-weight: 800;
+    font-size: 4.5rem;
     color: #161515;
     text-align: center;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width: 992px) {

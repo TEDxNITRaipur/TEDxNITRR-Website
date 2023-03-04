@@ -13,10 +13,6 @@ const ExeData = [
     },
 
     {
-        name: "Gargee Gupta"
-    },
-
-    {
         name: "Ranjana Jha"
     },
 
